@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio de Hoover Huaman: desarrollo backend, aplicaciones web y ruta de aprendizaje en Microsoft Azure.">
+  <title>Hoover Huaman | Backend & Azure</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#inicio" class="logo" aria-label="Hoover, inicio">HOOVER<span>.</span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir navegación">☰</button>
+      <nav id="main-nav" aria-label="Navegación principal">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#smart">Smart</a>
+        <a href="#formacion">Formación</a>
+        <a href="#tecnologias">Tecnologías</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-glow"></div>
+      <div class="container hero-content">
+        <p class="eyebrow"><span class="status-dot"></span> RUTA PROFESIONAL · BACKEND & CLOUD</p>
+        <h1>Hola, soy<br><span>Hoover Huaman</span></h1>
+        <p class="hero-description">Estudiante de Desarrollo de Software enfocado en construir aplicaciones web backend y aprender a desplegarlas en la nube con Microsoft Azure.</p>
+        <div class="hero-buttons">
+          <a href="#proyectos" class="btn btn-primary">Ver proyectos <span aria-hidden="true">↗</span></a>
+          <a href="#smart" class="btn btn-secondary">Explorar mi ruta</a>
+        </div>
+        <div class="hero-meta"><span>PHP · Laravel · SQL</span><span class="meta-divider"></span><span>Microsoft Azure</span></div>
+      </div>
+      <a href="#sobre-mi" class="scroll-indicator" aria-label="Desplazarse hacia abajo"><span></span></a>
+    </section>
+
+    <section id="sobre-mi" class="section">
+      <div class="container two-column">
+        <div>
+          <p class="section-label">SOBRE MÍ</p>
+          <h2>Aprender construyendo.<br><span class="muted-heading">Mejorar con cada proyecto.</span></h2>
+        </div>
+        <div class="about-content">
+          <p>Soy estudiante de Desarrollo de Software en SENATI, con interés en el desarrollo backend, las aplicaciones web y la gestión de datos.</p>
+          <p>Quiero fortalecer mis fundamentos de backend y aprender a publicar, configurar y mantener aplicaciones en la nube. Me interesa especialmente automatizar tareas de infraestructura mediante Azure CLI.</p>
+          <p>Estoy en una etapa de aprendizaje práctico: busco convertir cada tecnología estudiada en una pequeña implementación que pueda documentar y mejorar.</p>
+          <a class="text-link" href="https://github.com/HooverHDev" target="_blank" rel="noopener noreferrer">Ver mi GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="smart" class="section smart-section">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="section-label">SMART / ROADMAP</p><h2>Mi dirección profesional.</h2></div>
+          <p class="section-intro">Una ruta de aprendizaje honesta y progresiva: lo que estoy construyendo ahora y las competencias que quiero desarrollar.</p>
+        </div>
+        <div class="focus-banner">
+          <div class="focus-icon" aria-hidden="true">↗</div>
+          <div><span class="card-kicker">OBJETIVO PROFESIONAL</span><h3>Backend Developer · Cloud</h3><p>Desarrollar servicios backend y aprender a desplegarlos y administrarlos en Microsoft Azure.</p></div>
+          <span class="focus-tag">En desarrollo</span>
+        </div>
+        <div class="roadmap-grid">
+          <article class="roadmap-card current">
+            <div class="roadmap-top"><span class="step-number">01</span><span class="status-pill active">Enfoque actual</span></div>
+            <h3>Fundamentos Backend</h3>
+            <p>Consolidar la lógica de negocio, el acceso a datos y la estructura de aplicaciones web.</p>
+            <ul><li>PHP y fundamentos de Laravel</li><li>SQL y bases de datos relacionales</li><li>MVC, validación y manejo de errores</li><li>Git y documentación técnica</li></ul>
+          </article>
+          <article class="roadmap-card">
+            <div class="roadmap-top"><span class="step-number">02</span><span class="status-pill learning">Siguiente etapa</span></div>
+            <h3>APIs y servicios</h3>
+            <p>Construir una base sólida para conectar aplicaciones y separar responsabilidades.</p>
+            <ul><li>Diseño de APIs REST</li><li>Autenticación y autorización</li><li>Pruebas y variables de entorno</li><li>Buenas prácticas de seguridad</li></ul>
+          </article>
+          <article class="roadmap-card azure-card">
+            <div class="roadmap-top"><span class="step-number">03</span><span class="status-pill planned">Ruta Cloud</span></div>
+            <h3>Microsoft Azure</h3>
+            <p>Aprender a desplegar y operar aplicaciones web usando el portal y la línea de comandos.</p>
+            <ul><li>Azure CLI y comandos az</li><li>Resource Groups y App Service Plans</li><li>App Service y configuración</li><li>Azure SQL, monitoreo y costos</li></ul>
+          </article>
+          <article class="roadmap-card">
+            <div class="roadmap-top"><span class="step-number">04</span><span class="status-pill planned">A futuro</span></div>
+            <h3>Flujo de despliegue</h3>
+            <p>Pasar de publicar manualmente a mantener despliegues repetibles y observables.</p>
+            <ul><li>Docker y contenedores</li><li>GitHub Actions / CI-CD</li><li>Logs y diagnóstico</li><li>Seguridad y gestión de secretos</li></ul>
+          </article>
+        </div>
+        <div class="smart-note"><span class="note-symbol">i</span><p><strong>Cómo leer esta ruta:</strong> es un plan personal, no una lista de tecnologías que ya domino. Actualizaré cada etapa a medida que estudie y la aplique en proyectos reales.</p></div>
+      </div>
+    </section>
+
+    <section id="formacion" class="section">
+      <div class="container">
+        <p class="section-label">FORMACIÓN COMPLEMENTARIA</p>
+        <h2>Aprendizaje y certificaciones.</h2>
+        <p class="section-intro wide-intro">Formación realizada durante mi aprendizaje. La ruta Cloud se irá ampliando con cursos y laboratorios enfocados en Azure.</p>
+        <div class="cert-groups">
+          <div class="cert-group"><h3>Ciberseguridad · Universidad Nacional de Ingeniería</h3><div class="cert-grid">
+            <article class="cert-card"><img src="assets/certs/hacker.png" alt="" loading="lazy"><div><h4>Pentesting Web (CPW)</h4><p>Programa de Iniciación Tecnológica PIT 2025</p><small>16 horas · Nota: 20/20</small></div></article>
+            <article class="cert-card"><img src="assets/certs/ceh.png" alt="" loading="lazy"><div><h4>Ethical Hacking (C|EH)</h4><p>Programa de Iniciación Tecnológica PIT 2025</p><small>16 horas · Nota: 18/20</small></div></article>
+          </div></div>
+          <div class="cert-group"><h3>Cisco Networking Academy y formación técnica</h3><div class="cert-grid">
+            <article class="cert-card"><img src="assets/certs/cisco-networking.png" alt="" loading="lazy"><div><h4>Conceptos Básicos de Redes</h4><p>SENATI · Cisco Networking Academy</p><small>12 Sep 2024</small></div></article>
+            <article class="cert-card"><img src="assets/certs/cisco-cyber.png" alt="" loading="lazy"><div><h4>Introduction to Cybersecurity</h4><p>SENATI · Cisco Networking Academy</p><small>15 Ago 2024</small></div></article>
+            <article class="cert-card"><img src="assets/certs/cisco-hardware.png" alt="" loading="lazy"><div><h4>Conceptos Básicos de Hardware</h4><p>SENATI · Cisco Networking Academy</p><small>20 Sep 2024</small></div></article>
+            <article class="cert-card"><img src="assets/certs/cisco-python.png" alt="" loading="lazy"><div><h4>Python Essentials 1</h4><p>SENATI · Cisco Networking Academy</p><small>24 Oct 2024</small></div></article>
+            <article class="cert-card"><img src="assets/certs/cisco-linux.png" alt="" loading="lazy"><div><h4>Fundamentos de Linux</h4><p>IDAT · Cisco Networking Academy</p><small>22 Nov 2025</small></div></article>
+            <article class="cert-card"><img src="assets/certs/cisco-data.png" alt="" loading="lazy"><div><h4>Introducción a la Ciencia de Datos</h4><p>SENATI · Cisco Networking Academy</p><small>03 Oct 2024</small></div></article>
+            <article class="cert-card"><img src="assets/certs/cisco-iot.png" alt="" loading="lazy"><div><h4>Introducción al IoT y Transformación Digital</h4><p>SENATI · Cisco Networking Academy</p><small>08 Ago 2024</small></div></article>
+            <article class="cert-card"><img src="assets/certs/cisco-digital.png" alt="" loading="lazy"><div><h4>Conciencia Digital</h4><p>SENATI · Cisco Networking Academy</p><small>10 Oct 2024</small></div></article>
+            <article class="cert-card"><img src="assets/certs/cisco-c.png" alt="" loading="lazy"><div><h4>C Essentials 1</h4><p>SENATI · Cisco Networking Academy</p><small>Completado</small></div></article>
+          </div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tecnologias" class="section technologies-section">
+      <div class="container">
+        <p class="section-label">TECNOLOGÍAS</p><h2>Herramientas en mi recorrido.</h2>
+        <p class="section-intro wide-intro">Distingo entre herramientas que ya he utilizado y tecnologías que quiero estudiar con mayor profundidad.</p>
+        <h3 class="subsection-title">Base actual</h3>
+        <div class="tech-grid">
+          <article class="tech-card"><img src="assets/icons/laravel.svg" alt="" loading="lazy"><h4>Laravel / PHP</h4><p>Desarrollo de aplicaciones web backend.</p><span class="status-pill learning">Práctica</span></article>
+          <article class="tech-card"><img src="assets/icons/mysql.svg" alt="" loading="lazy"><h4>SQL · MySQL · SQLite</h4><p>Consultas y persistencia de datos.</p><span class="status-pill learning">Práctica</span></article>
+          <article class="tech-card"><img src="assets/icons/Java.svg" alt="" loading="lazy"><h4>Java</h4><p>Fundamentos de programación y aplicaciones.</p><span class="status-pill learning">Conocimientos</span></article>
+          <article class="tech-card"><img src="assets/icons/python.svg" alt="" loading="lazy"><h4>Python</h4><p>Programación y resolución de problemas.</p><span class="status-pill learning">Conocimientos</span></article>
+          <article class="tech-card"><img src="assets/icons/dotnet.svg" alt="" loading="lazy"><h4>.NET</h4><p>Exploración del desarrollo de aplicaciones.</p><span class="status-pill learning">Conocimientos</span></article>
+        </div>
+        <h3 class="subsection-title azure-subtitle">Ruta Microsoft Azure</h3>
+        <div class="azure-tools">
+          <div><span class="tool-mark">CLI</span><div><h4>Azure CLI</h4><p>Crear y administrar recursos con comandos reproducibles.</p></div><span class="status-pill active">Prioridad</span></div>
+          <div><span class="tool-mark">WEB</span><div><h4>App Service</h4><p>Publicar y configurar aplicaciones web.</p></div><span class="status-pill planned">Por profundizar</span></div>
+          <div><span class="tool-mark">DB</span><div><h4>Azure SQL</h4><p>Explorar bases de datos administradas y conexiones seguras.</p></div><span class="status-pill planned">Por estudiar</span></div>
+          <div><span class="tool-mark">OPS</span><div><h4>Resource Groups y planes</h4><p>Organizar recursos, dimensionamiento y costos.</p></div><span class="status-pill learning">Práctica inicial</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="section">
+      <div class="container">
+        <p class="section-label">FORMA DE TRABAJO</p><h2>Cómo abordo los problemas.</h2>
+        <div class="skills-grid">
+          <article class="skill-card"><span>01</span><h3>Pensamiento crítico</h3><p>Analizar el problema antes de elegir una solución.</p></article>
+          <article class="skill-card"><span>02</span><h3>Aprendizaje autónomo</h3><p>Investigar documentación y probar herramientas nuevas.</p></article>
+          <article class="skill-card"><span>03</span><h3>Trabajo en equipo</h3><p>Compartir información y coordinar para alcanzar objetivos comunes.</p></article>
+          <article class="skill-card"><span>04</span><h3>Adaptabilidad</h3><p>Ajustarme a nuevas tecnologías, requisitos y formas de trabajo.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section projects-section">
+      <div class="container">
+        <p class="section-label">PROYECTOS</p><h2>Aprendizaje aplicado.</h2>
+        <p class="section-intro wide-intro">Proyectos en desarrollo y práctica. Los presento con su estado real y con próximos pasos concretos.</p>
+        <article class="project-card">
+          <div class="project-preview">
+            <div class="carousel" id="carousel-derquin" aria-label="Capturas del proyecto Derquin">
+              <div class="carousel-track">
+                <img src="assets/img/projects/derquin/01-productos.png" alt="Catálogo de productos Derquin" class="carousel-slide active">
+                <img src="assets/img/projects/derquin/02-detalle.png" alt="Detalle técnico de producto Derquin" class="carousel-slide">
+                <img src="assets/img/projects/derquin/03-cotizacion.png" alt="Sección de cotización de Derquin" class="carousel-slide">
+              </div>
+              <button class="carousel-btn prev" type="button" aria-label="Imagen anterior">‹</button><button class="carousel-btn next" type="button" aria-label="Imagen siguiente">›</button>
+              <div class="carousel-dots"><button class="carousel-dot active" data-index="0" aria-label="Ir a imagen 1"></button><button class="carousel-dot" data-index="1" aria-label="Ir a imagen 2"></button><button class="carousel-dot" data-index="2" aria-label="Ir a imagen 3"></button></div>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-title-row"><div><p class="card-kicker">PROYECTO WEB</p><h3>Derquin Web</h3></div><span class="status-pill learning">En desarrollo</span></div>
+            <p>Sitio web para presentar productos Derquin, consultar información técnica y preparar cotizaciones.</p>
+            <h4>Funcionalidades</h4>
+            <ul class="feature-list"><li>Catálogo y productos destacados.</li><li>Fichas técnicas de productos.</li><li>Selección de productos para cotizar.</li><li>Formulario de contacto con el administrador.</li></ul>
+            <div class="tag-list"><span>PHP</span><span>HTML</span><span>CSS</span><span>SQLite</span><span>Azure App Service</span></div>
+            <div class="project-next"><strong>Próximo paso Cloud</strong><p>Documentar el despliegue, revisar configuración y variables de entorno, y practicar la administración del recurso con Azure CLI.</p></div>
+            <a href="https://derquin-2026.azurewebsites.net/productos.php" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Visitar proyecto <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        <div class="future-project">
+          <div><p class="card-kicker">LABORATORIO PERSONAL</p><h3>Azure CLI · Despliegue reproducible</h3><p>Próximo proyecto de práctica: documentar la creación de recursos y el despliegue de una aplicación backend mediante comandos, con atención a permisos y costos.</p></div>
+          <span class="status-pill planned">Planeado</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+      <div class="container contact-panel">
+        <p class="section-label">CONTACTO</p><h2>Construyamos algo útil.</h2><p>Estoy abierto a conversar sobre desarrollo web, proyectos de aprendizaje y oportunidades para seguir creciendo.</p>
+        <div class="contact-links"><a href="mailto:huamanarceleshoover@gmail.com">Correo <span>↗</span></a><a href="https://github.com/HooverHDev" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a><a href="https://www.linkedin.com/in/hoover-huaman-arceles-018734361/" target="_blank" rel="noopener noreferrer">LinkedIn <span>↗</span></a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-content"><a href="#inicio" class="logo">HOOVER<span>.</span></a><p>Backend · Cloud · Aprendizaje continuo</p><small>© <span id="year"></span> Hoover Huaman</small></div></footer>
+</body>
+</html>
